@@ -140,7 +140,7 @@ class BasicGrid(p.SingletonPlugin):
     def info(self):
         schema = {
             'fields': [ignore_missing, ignore_empty, convert_to_string,
-                       validate_fields, unicode],
+                       validate_fields],
             'orientation': [ignore_missing],
         }
 
